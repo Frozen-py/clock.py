@@ -1,12 +1,12 @@
 # clock.py
 # sandupama</>
-from tkinter import *
-from tkinter.ttk import *
+from tkinter import *<br>
+from tkinter.ttk import *<br>
 
-from time import strftime
+from time import strftime<br>
 
-root =Tk()
-root.title("Enter your title")
+root =Tk()<br>
+root.title("Enter your title")<br>
 
 def time():
     string = strftime('%H:%M:%S %p')
